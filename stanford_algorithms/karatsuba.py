@@ -7,11 +7,11 @@ import sys
 
 def karatsuba(num1, num2):
     """Recursive Karatsuba implementation.
-    
+
     Created for the Coursera Stanford Algorithms specialization.
     Based on:
     https://en.wikipedia.org/wiki/Karatsuba_algorithm#Pseudocode
-    
+
     :param num1: A positive integer
     :type num1: int
     :param num2: A positive integer
@@ -37,6 +37,6 @@ if __name__ == '__main__':
     try:
         print(karatsuba(sys.argv[1], sys.argv[2]))
     except KeyError:
-        print('This script requires two nmumbers to multiply as arguments.')
+        print('This script requires two numbers to multiply as arguments.')
         sys.exit(1)
 
