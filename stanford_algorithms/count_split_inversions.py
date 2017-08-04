@@ -12,7 +12,7 @@ def file_to_list(fname):
 
 def count_split_inversions(count_array):
     """Count the split inversions in an array/list."""
-    return 1
+    return 2
 
 
 if __name__ == '__main__':
