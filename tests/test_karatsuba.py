@@ -1,5 +1,4 @@
 """Tests for stanford_algorithms.karatsuba."""
-import pytest
 from stanford_algorithms import karatsuba
 
 
